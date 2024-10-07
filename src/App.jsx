@@ -8,7 +8,7 @@ function App() {
   const [wrongAnswers, setWrongAnswers] = useState(0);
 
   return (
-    <div className="h-screen w-screen bg-slate-800 text-slate-300">
+    <div className="h-screen w-screen bg-slate-800 text-slate-300 overflow-hidden">
       <div className="text-center w-screen">
         {questionNumber > 0 && (
           <>
